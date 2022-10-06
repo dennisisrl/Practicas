@@ -41,7 +41,6 @@ const seguridad_ocupacional = () => {
     
         <br></br>
         <div className='menudesplegable'>
-          <div className='desplegable'>
             <div className='Seguridad'>
                 <br></br>
                 <h3>Indicadores de Salud Ocupacional</h3>
@@ -50,13 +49,13 @@ const seguridad_ocupacional = () => {
                 <div className='botn'>
                
             <ButtonGroup variant="contained" aria-label="outlined primary button group" className='botones' >
-                    <Button  className='boton1' href='Indicador_cond_inseg'>
+                    <Button  className='boton1' href='Indicador_trab_aptos'>
                         <EngineeringIcon sx={{ fontSize:50 }} />
                         Indicador de Trabajadores Aptos</Button>
-                    <Button className='boton2'>
+                    <Button className='boton2' href='Indicador_pers_rest'>
                         <ReportOffIcon sx={{ fontSize:50 }}/>
                         Indicador de Personal con Restricción</Button>
-                    <Button  className='boton1' >
+                    <Button  className='boton1' href='Indicador_trab_noaptos' >
                         <WorkOffIcon  sx={{ fontSize:50 }}/>
                         Indicador de Trabajadores no Aptos</Button>
             </ButtonGroup>
@@ -65,19 +64,19 @@ const seguridad_ocupacional = () => {
             <div className='botn2'>
                
             <ButtonGroup variant="contained" aria-label="outlined primary button group" className='botones2' >
-                    <Button  className='boton4' href='Indicador_cond_inseg'>
+                    <Button  className='boton4' href='Indicador_consul_medic'>
                         <LocalHospitalIcon sx={{ fontSize:50 }} />
                         Indicador de Consultas Médicas </Button>
-                    <Button className='boton5'>
+                    <Button className='boton5' href='Indicador_det_salud'>
                         <GroupIcon sx={{ fontSize:50 }}/>
                         Indicador de Deterioro de la Salud</Button>
-                    <Button  className='boton6' >
+                    <Button  className='boton6' href='Indicador_consul_medic'>
                         <AssignmentIndIcon  sx={{ fontSize:50 }}/>
                         Indicador de Capacitaciones</Button>
             </ButtonGroup>
       
             </div>
-            </div>
+           
     <br></br>
     
    

@@ -8,7 +8,7 @@ import Indicador from '../../Reportes/components/Indicador.css'
 
 
 
-const Indicador_cond_inseg = () => {
+const Indicador_consul_medic = () => {
 
     return (
 
@@ -33,7 +33,6 @@ const Indicador_cond_inseg = () => {
     
         <br></br>
         <div className='indicInseg'> <h3>Indicador de Condiciones Inseguras</h3></div>
-        <br></br>
        
         <table className=' table-bordered '>   
           <thead className=' table-active '>
@@ -91,15 +90,20 @@ const Indicador_cond_inseg = () => {
             
 
           </tbody>
-          </table >   
-      
+          </table >
+
         
+      
+
+        
+
+      
+
         <br/>
-        <br></br>
         <div className='table-resposive'>
           <table className='table table-bordered' padding="2px">
             <thead>
-              <tr className='tabla1'>
+              <tr className='table-dark'>
                 <th>ID</th>
                 <th>MES</th>
                 <th>NUMERADOR</th>
@@ -111,7 +115,7 @@ const Indicador_cond_inseg = () => {
               </tr>
             </thead>
             <tbody>
-              <tr className>
+              <tr>
                 <td>1</td>
                 <td>Enero</td>
                 <td>16</td>
@@ -149,7 +153,6 @@ const Indicador_cond_inseg = () => {
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>
                 
 
               </tr>
@@ -159,8 +162,7 @@ const Indicador_cond_inseg = () => {
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td> 
-                <td></td>               
+                <td></td>                
 
               </tr>
               <tr>
@@ -169,14 +171,12 @@ const Indicador_cond_inseg = () => {
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td> 
-                <td></td>               
+                <td></td>                
 
               </tr>
               <tr>
                 <td>7</td>
                 <td>Julio</td>
-                <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -189,8 +189,7 @@ const Indicador_cond_inseg = () => {
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td> 
-                <td></td>               
+                <td></td>                
 
               </tr>
               <tr>
@@ -199,8 +198,7 @@ const Indicador_cond_inseg = () => {
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td> 
-                <td></td>               
+                <td></td>                
 
               </tr>
               <tr>
@@ -209,8 +207,7 @@ const Indicador_cond_inseg = () => {
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>  
-                <td></td>              
+                <td></td>                
 
               </tr>
               <tr>
@@ -219,8 +216,7 @@ const Indicador_cond_inseg = () => {
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>  
-                <td></td>              
+                <td></td>                
 
               </tr>
               <tr>
@@ -229,8 +225,7 @@ const Indicador_cond_inseg = () => {
                 <td></td>
                 <td></td>
                 <td></td>
-                <td></td>  
-                <td></td>              
+                <td></td>                
 
               </tr>
 
@@ -258,6 +253,6 @@ const Indicador_cond_inseg = () => {
     
 }
 
-export default Indicador_cond_inseg;
+export default Indicador_consul_medic;
   
   

@@ -41,7 +41,6 @@ const Seguridad_Ocupacional = () => {
     
         <br></br>
         <div className='menudesplegable'>
-          <div className='desplegable'>
             <div className='Seguridad'>
                 <br></br>
                 <h3>Indicadores de Seguridad Ocupacional</h3>
@@ -53,10 +52,10 @@ const Seguridad_Ocupacional = () => {
                     <Button  className='boton1' href='Indicador_cond_inseg'>
                         <WarningOutlinedIcon sx={{ fontSize:50 }} />
                         Indicador de Condiciones Inseguras</Button>
-                    <Button className='boton2'>
+                    <Button className='boton2' href='Indicador_accidentes'>
                         <AirlineSeatFlatIcon sx={{ fontSize:50 }}/>
                         Indicador de Accidentes</Button>
-                    <Button  className='boton1' >
+                    <Button  className='boton1' href='Indicador_incidentes'>
                         <EngineeringIcon sx={{ fontSize:50 }}/>
                         Indicador de Incidentes</Button>
             </ButtonGroup>
@@ -68,16 +67,16 @@ const Seguridad_Ocupacional = () => {
                     <Button  className='boton4' href='Indicador_cond_inseg'>
                         <LocalHospitalIcon sx={{ fontSize:50 }} />
                         Indicador de deterioro de Salud </Button>
-                    <Button className='boton5'>
+                    <Button className='boton5' href='Indicador_cond_inseg'>
                         <GroupIcon sx={{ fontSize:50 }}/>
                         Indicador de controles operacionales</Button>
-                    <Button  className='boton6' >
+                    <Button  className='boton6'href='Indicador_cond_inseg' >
                         <AssignmentIndIcon  sx={{ fontSize:50 }}/>
                         Indicador de Capactaciones</Button>
             </ButtonGroup>
       
             </div>
-            </div>
+            
     <br></br>
     
    

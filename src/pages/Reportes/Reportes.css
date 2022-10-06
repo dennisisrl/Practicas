@@ -12,6 +12,29 @@
     font-weight: bold;    
     
 }
+
+.Seguridad {
+    
+        justify-content: center;
+        font-size: 20;
+        font-weight: bold;    
+        text-align: center;
+           
+}
+.menudesplegable{
+    width: auto;
+    height: 70vh;
+    background-color: rgb(228, 222, 222);
+    border-radius: 15px;
+}
+
+.minimenu{
+    width: 10 cm;
+    height: 13vh;
+    background-color: rgb(168, 159, 159);
+   border-radius: 10px;  
+}
+
 .piepagina{
     background-color: #5a5a61; 
     width: auto;
@@ -28,23 +51,6 @@
 
     margin-top: 2mm;
 }
-
-
-.menudesplegable{
-    width: auto;
-    height: 70vh;
-    background-color: rgb(228, 222, 222);
-    border-radius: 15px;
-}
-
-.minimenu{
-    width: 10 cm;
-    height: 13vh;
-    background-color: rgb(168, 159, 159);
-   border-radius: 10px;  
-}
-
-
 .encabezado{
     display: flex;
     flex-direction: row;
@@ -229,6 +235,9 @@
     width: 320px; 
     height: 120px;
     background-color: #2044b9;
+    margin-left: 1px;
+
+   
  
    
 }
@@ -243,6 +252,7 @@
     width: 320px; 
     height: 120px;
     background-color: #b71c1c;
+    margin-left: 1px;
 }
 /* botton Seguridad Ocupacional-Inndocador de Incidentes*/
 
@@ -254,6 +264,7 @@
     width: 320px; 
     height: 120px;
     background-color: #2044b9;
+    margin-left: 1px;
 }
 
 /* botton Seguridad Ocupacional*/
@@ -269,6 +280,7 @@
     width: 320px; 
     height: 120px;
     background-color: #2044b9;
+    margin-left: 1px;
  
    
 }
@@ -283,6 +295,7 @@
     width: 320px; 
     height: 120px;
     background-color: #b71c1c;
+    margin-left: 1px;
 }
 /* botton Seguridad Ocupacional-Inndocador de Incidentes*/
 
@@ -294,9 +307,8 @@
     width: 320px; 
     height: 120px;
     background-color: #2044b9;
+    margin-left: 1px;
 }
-
-
 
 
 

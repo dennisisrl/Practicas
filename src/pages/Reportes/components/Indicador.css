@@ -6,5 +6,21 @@ table{
 
 
 td,th {
-    border: 2px solid ;  
+    border: 2px solid ;      
+              
+}
+
+.tabla1 > th{
+    background-color: #191a19;
+    color: white;
+    
+      
+}
+
+
+
+tr:hover {background-color: rgb(67, 79, 243);}
+
+.table >tr{
+    height: 90px;
 }
