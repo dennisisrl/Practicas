@@ -1,14 +1,61 @@
 import React from 'react';
+import { render } from "react-dom";
 import '../../Reportes/Reportes.css'
 import estadistica from '../../Reportes/components/estadistica.png'
 import logo from '../../Reportes/components/logo_login.png'
 import Indicador from '../../Reportes/components/Indicador.css'
+import Observaciones from './Observaciones';
+import { Bar, Line} from 'react-chartjs-2';
+import {Datos} from './Datos';
+import {
+  Chart as ChartJS,
+  BarElement,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend,
+} from "chart.js";
 
-
-
+ChartJS.register(
+  BarElement,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend
+);
 
 
 const Indicador_cond_inseg = () => {
+  const state = {
+    data: {
+      labels: Datos.map(o => o.Mes),
+      datasets: [
+        {
+          label: 'Resultados %',
+          backgroundColor: '#2C33E7',
+          borderColor: '',
+          borderWidth: 1,
+          data: Datos.map(o => o.Resultados)
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        title: {
+          display: true,
+          text: 'Porcentaje de Condiciones Inseguras'
+        }
+      }
+    }
+  };
+ 
 
     return (
 
@@ -38,12 +85,12 @@ const Indicador_cond_inseg = () => {
         <table className=' table-bordered '>   
           <thead className=' table-active '>
   
-            <tr>
+            <tr className='tablem'>
+              
            
-              <th> Indicador N°19</th>  
-             <th>1 1. INFORMACIÓN DEL INDICADOR </th> 
-             <th></th>
-             <th></th>
+              <th> Indicador N°6</th>  
+             <th colspan="3">1 INFORMACIÓN DEL INDICADOR </th> 
+            
             </tr>
            
           </thead>
@@ -52,22 +99,20 @@ const Indicador_cond_inseg = () => {
             
             <tr>
               <th>Nombre Indicador </th>
-              <td>Tablero de indicadores </td>
+              <td>Indicador de condiciones Inseguras </td>
               <th>Codigo: </th>
-              <td> DI-TH-SO-C-008</td>
+              <td> DI-TH-S-CI-002</td>
             </tr>
             <tr>
               <th>Finalidad</th>
-              <td>Eficiencia personal, grupal y organizacional</td>
-              <th></th>
-              <th></th>
+              <td colspan="3">Medir las condiciones inseguras</td>
+             
              
             </tr>
             <tr>
               <th>Calculo</th>
-              <td>(N° cap. seguridad y S. Ocupacional realizadas/ N° cap. programadas)*100 </td>
-              <th></th>
-              <th></th>
+              <td colspan="3">  =(No. de trabajos inseguros / No. condiciones observadas) * 100 </td>
+            
              
             </tr>
             <tr>
@@ -96,6 +141,13 @@ const Indicador_cond_inseg = () => {
         
         <br/>
         <br></br>
+        <table>
+          <tr className='tablem'>
+            <th>2. DATOS</th>
+            
+          </tr>
+        
+        </table>
         <div className='table-resposive'>
           <table className='table table-bordered' padding="2px">
             <thead>
@@ -111,133 +163,65 @@ const Indicador_cond_inseg = () => {
               </tr>
             </thead>
             <tbody>
-              <tr className>
-                <td>1</td>
-                <td>Enero</td>
-                <td>16</td>
-                <td>16</td>
-                <td>100%</td>
-                <td>Planificacion</td>
-                <td>Planificacion</td>
+              {
+                Datos.map((data,key) => { 
+                  return( 
+                    <tr key={key}>
+                      
+                      <th>{data.Id}</th>
+                      <th>{data.Mes}</th>
+                     <th>{data.Numerador}</th>
+                     <th>{data.Denominador}</th>
+                      <th>{data.Resultados}</th>
+                      <th>{data.Causas}</th>
+                    <th>{data.Acciones}</th>
+                       
+                      
+                    </tr>
+                  )
+                })
 
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Febrero</td>
-                <td>90</td>
-                <td>108</td>
-                <td>83.33%</td>
-                <td></td>
-                <td></td>
 
-              </tr>
-             
-              <tr>
-                <td>3</td>
-                <td>Marzo</td>
-                <td>51</td>
-                <td>53</td>
-                <td>96,23%</td>
-                <td></td>
-                <td></td>
-
-              </tr>
-              <tr>
-                <td>4</td>
-                <td>Abril</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                
-
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>Mayo</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td> 
-                <td></td>               
-
-              </tr>
-              <tr>
-                <td>6</td>
-                <td>Junio</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td> 
-                <td></td>               
-
-              </tr>
-              <tr>
-                <td>7</td>
-                <td>Julio</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>                
-
-              </tr>
-              <tr>
-                <td>8</td>
-                <td>Agosto</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td> 
-                <td></td>               
-
-              </tr>
-              <tr>
-                <td>9</td>
-                <td>Septiembre</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td> 
-                <td></td>               
-
-              </tr>
-              <tr>
-                <td>10</td>
-                <td>Octubre</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>  
-                <td></td>              
-
-              </tr>
-              <tr>
-                <td>11</td>
-                <td>Noviembre</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>  
-                <td></td>              
-
-              </tr>
-              <tr>
-                <td>12</td>
-                <td>Diciembre</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>  
-                <td></td>              
-
-              </tr>
-
+              }
             </tbody>
 
           </table>
+          <br></br>
+          <br></br>
+
+          
         </div>
+        <table>
+          <tr className='graficas'>
+            <th>3. GRÁFICAS</th>
+            
+
+            
+          </tr>
+        </table>
+        <Bar 
+        datasetIdKey='id'
+        options={state.options}
+        data={state.data}
+        
+      />
+
+        <table>
+          <tr className='observaciones '>
+            <th>4. OBSERVACIONES</th>
+            
+          
+
+            
+
+          </tr>
+        
+        </table>
+
+        <Observaciones/>
+
+         
+
           
     <br></br>
            
@@ -253,6 +237,7 @@ const Indicador_cond_inseg = () => {
       
       </div>   
     
+   
     
       );
     

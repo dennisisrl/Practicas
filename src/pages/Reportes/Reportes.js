@@ -44,7 +44,7 @@ const Reportes = () => {
  
 
 <a href='Seguridad_Ocupacional '>Seguridad Ocupacional</a>
-<a href='Seguridad_Ocupacional'>Salud Ocupacional</a>
+<a href='Salud_Ocupacional'>Salud Ocupacional</a>
 <a href='Gestion_Talento'>Formación y Capacitación</a>
 <a href='Gestion_Talento'>Remuneraciones</a>
 <a href='Gestion_Talento'>Administración del Talento</a>
@@ -96,10 +96,14 @@ const Reportes = () => {
 
     </div>
     </div>
+    
 
       
     <div className='piepagina'>
       <p>MUNICIPIO DE RIOBAMBA- ESPOCH</p>
+
+      
+
 
     </div> 
       
