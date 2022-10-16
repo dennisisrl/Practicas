@@ -1,0 +1,78 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+
+td,th {
+    border: 2px solid ; 
+    
+     
+    
+                
+}
+
+
+.tabla1> th{
+    background-color: #191a19;
+    color: white; 
+  
+      
+}
+
+.datos> th{
+    background-color: #191a19;
+    color: white;
+    
+          
+}
+
+.datosdentro{
+    font-weight: normal;
+    
+
+
+
+}
+
+.graficas> th{
+    background-color: #191a19;
+    color: white;
+    
+    
+      
+}
+
+ 
+.tablem >th{
+    background-color: #191a19;
+    color: white;
+}
+.espacio1> td{
+
+    height: 50px;
+    
+      
+}
+.medicion{
+    text-align: center;
+}
+
+.table-resposive td {
+    border: 2px solid ;  
+    height: 50px;
+    vertical-align: bottom;
+    text-align: center;
+    font-weight: normal;
+}
+
+
+.observaciones{
+    background-color: #191a19;
+    color: white;
+  
+
+  
+
+}

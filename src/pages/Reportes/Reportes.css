@@ -1,0 +1,314 @@
+.tituloreporte{
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;   
+    
+}
+
+.tituloreporte h1 {
+    justify-content: center;
+    font-size: 20;
+    font-weight: bold;    
+    
+}
+
+.Seguridad {
+    
+        justify-content: center;
+        font-size: 20;
+        font-weight: bold;    
+        text-align: center;
+           
+}
+.menudesplegable{
+    width: auto;
+    height: 70vh;
+    background-color: rgb(228, 222, 222);
+    border-radius: 15px;
+}
+
+.minimenu{
+    width: 10 cm;
+    height: 13vh;
+    background-color: rgb(168, 159, 159);
+   border-radius: 10px;  
+}
+
+.piepagina{
+    background-color: #5a5a61; 
+    width: auto;
+    height: 40px;
+    text-align: center;
+    color: white;
+    padding: 1px 32px;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 5mm;
+ 
+}
+.piepagina > p{
+
+    margin-top: 2mm;
+}
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.encabezado > .logoprovincia{
+    width: 10%;
+    height: 100px; 
+    margin: 2px;       
+}
+
+.encabezado > .tituloreporte{
+    width: 90%;
+    margin: 1px;
+    line-height: 35px;
+}
+
+/* encabezado indicador condiciones inseguras*/
+
+.indicInseg  {
+    justify-content: center;
+     font-weight: bold;    
+    text-align: center;
+    
+}
+
+ .estadisticas{
+    width: 40%;  
+    margin: auto;
+    justify-content: left;
+        
+}
+/* botton Gestion_Talento_Humano*/
+
+.desplegable > .boton{
+    background-color: #EFEFEF;
+    color: black;
+    border: none;
+    padding: 8px;
+    width: 270px;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 15px;
+    
+
+ }
+
+.desplegable2 > .boton2{
+    background-color: #EFEFEF;
+    color: black;
+    border: none;
+    padding: 16px;
+    width: 270px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+
+.desplegable3 > .boton3{
+    background-color: #EFEFEF;
+    color: black;
+    border: none;
+    padding: 17px;
+    width: 270px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 45em;
+    border-radius: 15px;
+ }
+
+
+.links a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 12px; 
+}
+
+.links {
+    background-color: #878382;
+    width: 270px;
+    display: none;
+    border-radius: 15px;
+    
+}
+
+
+.links a:hover{
+    background-color: #374C74;
+    border-radius: 15px;
+}
+
+
+.desplegable:hover .links {
+    display: block;
+}
+
+/* botton Gestion_Financiera*/
+
+.links b{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 12px; 
+}
+
+
+.links {
+    background-color: #878382;
+    width: 270px;
+    display: none;
+    border-radius: 15px;
+    
+}
+
+.links b:hover{
+    background-color: #374C74;
+    border-radius: 15px;
+}
+
+
+
+.desplegable2:hover .links {
+    display: block;
+}
+.desplegable{
+    position: absolute;
+    margin-left: 1em;
+
+}
+
+.desplegable2{
+    position: absolute;
+    margin-left: 21em;
+}
+.desplegable3{
+    position: absolute;
+    margin-left: 42em;
+
+}
+
+/* botton Gestion_Comunicacion*/
+
+.links c{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 12px; 
+}
+
+
+.links {
+    background-color: #878382;
+    width: 270px;
+    display: none;
+    border-radius: 15px;
+    
+}
+
+.links c:hover{
+    background-color: #374C74;
+    border-radius: 15px;
+}
+
+.desplegable3:hover .links {
+    display: block;
+}
+
+/* botton Seguridad Ocupacional*/
+.botones{
+    padding: 3px;
+}
+
+/* botton Seguridad Ocupacional-Conndiciones inseguras*/
+.botones > .boton1{
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;  
+    width: 320px; 
+    height: 120px;
+    background-color: #2044b9;
+    margin-left: 1px;
+
+   
+ 
+   
+}
+
+/* botton Seguridad Ocupacional-Inndocador de Accidentes*/
+
+.botones > .boton2{
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;   
+    width: 320px; 
+    height: 120px;
+    background-color: #b71c1c;
+    margin-left: 1px;
+}
+/* botton Seguridad Ocupacional-Inndocador de Incidentes*/
+
+.botones > .boton3{
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;  
+    width: 320px; 
+    height: 120px;
+    background-color: #2044b9;
+    margin-left: 1px;
+}
+
+/* botton Seguridad Ocupacional*/
+.botones2{
+    padding: 3px;
+}
+/* botton Seguridad Ocupacional-Conndiciones inseguras*/
+.botones2 > .boton4{
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;  
+    width: 320px; 
+    height: 120px;
+    background-color: #2044b9;
+    margin-left: 1px;
+ 
+   
+}
+
+/* botton Seguridad Ocupacional-Inndocador de Accidentes*/
+
+.botones2 > .boton5{
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;   
+    width: 320px; 
+    height: 120px;
+    background-color: #b71c1c;
+    margin-left: 1px;
+}
+/* botton Seguridad Ocupacional-Inndocador de Incidentes*/
+
+.botones2 > .boton6{
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;  
+    width: 320px; 
+    height: 120px;
+    background-color: #2044b9;
+    margin-left: 1px;
+}
+
+
+
