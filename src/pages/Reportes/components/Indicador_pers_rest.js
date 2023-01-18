@@ -50,7 +50,7 @@ const Indicador_pers_rest = () => {
       plugins: {
         title: {
           display: true,
-          text: 'Porcentaje de Condiciones Inseguras'
+          text: 'Porcentaje de Personal con restrición'
         }
       }
     }
@@ -79,7 +79,7 @@ const Indicador_pers_rest = () => {
         </div>
     
         <br></br>
-        <div className='indicInseg'> <h3>Indicador de Condiciones Inseguras</h3></div>
+        <div className='indicInseg'> <h3>Salud Ocupacional - Indicador Personal con Restricción</h3></div>
         <br></br>
        
         <table className=' table-bordered '>   
@@ -99,19 +99,19 @@ const Indicador_pers_rest = () => {
             
             <tr>
               <th>Nombre Indicador </th>
-              <td>Indicador de condiciones Inseguras </td>
+              <td>Indicador personal con restricción </td>
               <th>Codigo: </th>
-              <td> DI-TH-S-CI-002</td>
+              <td> DI-TH-SO-PR-005</td>
             </tr>
             <tr>
               <th>Finalidad</th>
-              <td colspan="3">Medir las condiciones inseguras</td>
+              <td colspan="3">Monitorizar la exposición a los factores de riesgo</td>
              
              
             </tr>
             <tr>
               <th>Calculo</th>
-              <td colspan="3">  =(No. de trabajos inseguros / No. condiciones observadas) * 100 </td>
+              <td colspan="3">   = (No. de trabajadores aptos con restricción / No. de trabajadores evaluados) * 100</td>
             
              
             </tr>
@@ -166,7 +166,7 @@ const Indicador_pers_rest = () => {
               {
                 Datos_pers_rest.map((data,key) => { 
                   return( 
-                    <tr key={key}>
+                    <tr key={key} className="lleno">
                       
                       <th>{data.Id}</th>
                       <th>{data.Mes}</th>
@@ -217,7 +217,7 @@ const Indicador_pers_rest = () => {
           </tr>
         
         </table>
-
+              <br></br>
         <Observaciones/>
 
          

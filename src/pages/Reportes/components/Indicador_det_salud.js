@@ -50,7 +50,7 @@ const Indicador_det_salud = () => {
       plugins: {
         title: {
           display: true,
-          text: 'Porcentaje de Condiciones Inseguras'
+          text: 'Porcentaje deterioro de salud'
         }
       }
     }
@@ -79,7 +79,7 @@ const Indicador_det_salud = () => {
         </div>
     
         <br></br>
-        <div className='indicInseg'> <h3>Indicador de Condiciones Inseguras</h3></div>
+        <div className='indicInseg'> <h3>Salud Ocupacional - Indicador de deterioro de Salud</h3></div>
         <br></br>
        
         <table className=' table-bordered '>   
@@ -88,7 +88,7 @@ const Indicador_det_salud = () => {
             <tr className='tablem'>
               
            
-              <th> Indicador N°6</th>  
+              <th> Indicador N°14</th>  
              <th colspan="3">1 INFORMACIÓN DEL INDICADOR </th> 
             
             </tr>
@@ -99,19 +99,20 @@ const Indicador_det_salud = () => {
             
             <tr>
               <th>Nombre Indicador </th>
-              <td>Indicador de condiciones Inseguras </td>
+              <td>Indicador deterioro de salud </td>
               <th>Codigo: </th>
               <td> DI-TH-S-CI-002</td>
             </tr>
             <tr>
               <th>Finalidad</th>
-              <td colspan="3">Medir las condiciones inseguras</td>
+              <td colspan="3">Analizar las consecuencias que ocasionan un deterioro de la salud	</td>
              
              
             </tr>
             <tr>
               <th>Calculo</th>
-              <td colspan="3">  =(No. de trabajos inseguros / No. condiciones observadas) * 100 </td>
+              <td colspan="3"> = (No. de enfermedades laborales /  No. de colaboradores) * 100											
+</td>
             
              
             </tr>
@@ -166,7 +167,7 @@ const Indicador_det_salud = () => {
               {
                 Datos_det_salud.map((data,key) => { 
                   return( 
-                    <tr key={key}>
+                    <tr key={key} className="lleno">
                       
                       <th>{data.Id}</th>
                       <th>{data.Mes}</th>
@@ -217,6 +218,7 @@ const Indicador_det_salud = () => {
           </tr>
         
         </table>
+        <br></br>
 
         <Observaciones/>
 

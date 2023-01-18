@@ -2,110 +2,110 @@ export const Datos_trab_aptos=[
   { 
     Id: '1',
     Mes:'Enero',
-    Numerador:'8',
-    Denominador:'9',
-    Resultados:'100',
-    Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-    Acciones:'Realizar inspecciones programadas y no programadas'     
+    Numerador:'46',
+    Denominador:'68',
+    Resultados:'67.65',
+    Causas:'Evaluación Ocupacional de ingreso y posocupacional',
+    Acciones:'Induccion de medidas preventivas'     
   },
   { 
     Id: '2',
     Mes:'Febrero ',
-    Numerador:'9',
-    Denominador:'10',
-    Resultados:'59',
-    Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-    Acciones:'Realizar inspecciones programadas y no programadas'     
+    Numerador:'55',
+    Denominador:'81',
+    Resultados:'67.90',
+    Causas:'Evaluación Ocupacional de ingreso y posocupacional',
+    Acciones:'Seguimiento de equipo multidisciplinario'       
   },
   { 
     Id: '3',
     Mes:'Marzo',
-    Numerador:'9',
-    Denominador:'10',
-    Resultados:'59',
-    Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-    Acciones:'Realizar inspecciones programadas y no programadas'     
+    Numerador:'167',
+    Denominador:'194',
+    Resultados:'86.08',
+    Causas:'EVALUACIONES OCUPACIONALES',
+    Acciones:'Seguimiento de equipo multidisciplinario'       
   },
   { 
     Id: '4',
     Mes:'Abril',
-    Numerador:'9',
-    Denominador:'10',
-    Resultados:'59',
-    Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-    Acciones:'Realizar inspecciones programadas y no programadas'     
+    Numerador:'70',
+    Denominador:'78',
+    Resultados:'89.74',
+    Causas:'EVALUACIONES OCUPACIONALES',
+    Acciones:'Seguimiento de equipo multidisciplinario'    
   },
   { 
     Id: '5',
     Mes:'Mayo',
-    Numerador:'9',
-    Denominador:'10',
-    Resultados:'59',
-    Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-    Acciones:'Realizar inspecciones programadas y no programadas'     
+    Numerador:'117',
+    Denominador:'132',
+    Resultados:'88.64',
+    Causas:'Evaluación Ocupacional Periódica  (seguimiento de equipo multidisciplinario).',
+    Acciones:'Seguimiento de equipo multidisciplinario'         
   },
   { 
     Id: '6',
     Mes:'Junio',
-    Numerador:'9',
-    Denominador:'10',
-    Resultados:'59',
-    Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-    Acciones:'Realizar inspecciones programadas y no programadas'     
+    Numerador:'129',
+    Denominador:'143',
+    Resultados:'90.21',
+    Causas:'EVALUACIONES OCUPACIONALES',
+    Acciones:'Seguimiento de equipo multidisciplinario'   
   },
   { 
     Id: '7',
     Mes:'Julio',
-    Numerador:'9',
-    Denominador:'10',
-    Resultados:'59',
-    Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-    Acciones:'Realizar inspecciones programadas y no programadas'     
+    Numerador:'',
+    Denominador:'',
+    Resultados:'',
+    Causas:'',
+    Acciones:''      
   },
   { 
     Id: '8',
     Mes:'Agosto',
-    Numerador:'9',
-    Denominador:'10',
-    Resultados:'59',
-    Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-    Acciones:'Realizar inspecciones programadas y no programadas'     
+    Numerador:'',
+    Denominador:'',
+    Resultados:'',
+    Causas:'',
+    Acciones:''  
   },
   { 
     Id: '9',
     Mes:'Septiembre',
-    Numerador:'9',
-    Denominador:'10',
-    Resultados:'59',
-    Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-    Acciones:'Realizar inspecciones programadas y no programadas'     
+    Numerador:'',
+    Denominador:'',
+    Resultados:'',
+    Causas:'',
+    Acciones:''
   },
   { 
     Id: '10',
     Mes:'Octubre',
-    Numerador:'9',
-    Denominador:'10',
-    Resultados:'59',
-    Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-    Acciones:'Realizar inspecciones programadas y no programadas'     
+    Numerador:'',
+    Denominador:'',
+    Resultados:'',
+    Causas:'',
+    Acciones:''  
   },
   { 
     Id: '11',
     Mes:'Noviembre',
-    Numerador:'9',
-    Denominador:'10',
-    Resultados:'19',
-    Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-    Acciones:'Realizar inspecciones programadas y no programadas'     
+    Numerador:'',
+    Denominador:'',
+    Resultados:'',
+    Causas:'',
+    Acciones:''
   },
   { 
     Id: '12',
     Mes:'Diciembre',
-    Numerador:'9',
-    Denominador:'10',
-    Resultados:'59',
-    Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-    Acciones:'Realizar inspecciones programadas y no programadas'     
+    Numerador:'',
+    Denominador:'',
+    Resultados:'',
+    Causas:'',
+    Acciones:''  
   },
   
   ]

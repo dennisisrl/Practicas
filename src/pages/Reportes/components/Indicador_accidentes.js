@@ -35,7 +35,7 @@ const Indicador_accidentes = () => {
       labels: Datos_accidentes.map(o => o.Mes),
       datasets: [
         {
-          label: 'Resultados %',
+          label: 'Resultados Númerico',
           backgroundColor: '#2C33E7',
           borderColor: '',
           borderWidth: 1,
@@ -48,17 +48,11 @@ const Indicador_accidentes = () => {
       plugins: {
         title: {
           display: true,
-          text: 'Porcentaje de Accidentes'
+          text: 'Número  de Accidentes'
         }
       }
     }
   };
- 
-
-
-
-
-
 
     return (
 
@@ -82,7 +76,7 @@ const Indicador_accidentes = () => {
     </div>
 
     <br></br>
-    <div className='indicInseg'> <h3>Indicador de Accidentes</h3></div>
+    <div className='indicInseg'> <h3>Seguridad Ocupacional - Indicador de Accidentes</h3></div>
     <br></br>
    
     <table className=' table-bordered '>   
@@ -91,9 +85,9 @@ const Indicador_accidentes = () => {
         <tr className='tablem'>
        
           <th> Indicador N°8</th>  
-         <th>1 INFORMACIÓN DEL INDICADOR </th> 
-         <th></th>
-         <th></th>
+         <th colSpan= "3">1 INFORMACIÓN DEL INDICADOR </th> 
+         
+        
         </tr>
        
       </thead>
@@ -108,17 +102,13 @@ const Indicador_accidentes = () => {
         </tr>
         <tr>
           <th>Finalidad</th>
-          <td>Evaluar la protección a los trabajadores de los peligros y riesgos relacionados con el trabajo</td>
-          <th></th>
-          <th></th>
-         
+          <td colspan="3">Evaluar la protección a los trabajadores de los peligros y riesgos relacionados con el trabajo</td>
+                   
         </tr>
         <tr>
           <th>Calculo</th>
-          <td> = No. de días sin accidentes </td>
-          <th></th>
-          <th></th>
-         
+          <td colspan="3"> = No. de días sin accidentes </td>
+          
         </tr>
         <tr>
           <th>Unidad de medida</th>
@@ -171,7 +161,7 @@ const Indicador_accidentes = () => {
               {
                 Datos_accidentes.map((data,key) => { 
                   return( 
-                    <tr key={key}>
+                    <tr key={key} className='lleno'>
                       
                       <th>{data.Id}</th>
                       <th>{data.Mes}</th>
@@ -222,7 +212,7 @@ const Indicador_accidentes = () => {
           </tr>
         
         </table>
-
+              <br></br>
         <Observaciones/>
 
          

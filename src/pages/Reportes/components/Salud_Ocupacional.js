@@ -72,7 +72,7 @@ const seguridad_ocupacional = () => {
                         Indicador de Deterioro de la Salud</Button>
                     <Button  className='boton6' href='Indicador_consul_medic'>
                         <AssignmentIndIcon  sx={{ fontSize:50 }}/>
-                        Indicador de Ctas Médicas</Button>
+                        Indicador de Capacitaciones</Button>
             </ButtonGroup>
       
             </div>

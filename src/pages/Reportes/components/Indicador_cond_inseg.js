@@ -79,7 +79,7 @@ const Indicador_cond_inseg = () => {
         </div>
     
         <br></br>
-        <div className='indicInseg'> <h3>Indicador de Condiciones Inseguras</h3></div>
+        <div className='indicInseg'> <h3>Seguridad Ocupacional-Indicador de Condiciones Inseguras</h3></div>
         <br></br>
        
         <table className=' table-bordered '>   
@@ -90,6 +90,8 @@ const Indicador_cond_inseg = () => {
            
               <th> Indicador N°6</th>  
              <th colspan="3">1 INFORMACIÓN DEL INDICADOR </th> 
+             
+      
             
             </tr>
            
@@ -106,13 +108,14 @@ const Indicador_cond_inseg = () => {
             <tr>
               <th>Finalidad</th>
               <td colspan="3">Medir las condiciones inseguras</td>
+              
              
              
             </tr>
             <tr>
               <th>Calculo</th>
               <td colspan="3">  =(No. de trabajos inseguros / No. condiciones observadas) * 100 </td>
-            
+              
              
             </tr>
             <tr>
@@ -142,33 +145,32 @@ const Indicador_cond_inseg = () => {
         <br/>
         <br></br>
         <table>
-          <tr className='tablem'>
+          <tr className='datos'>
             <th>2. DATOS</th>
             
           </tr>
         
-        </table>
-        <div className='table-resposive'>
-          <table className='table table-bordered' padding="2px">
-            <thead>
-              <tr className='tabla1'>
-                <th>ID</th>
-                <th>MES</th>
-                <th>NUMERADOR</th>
-                <th>DENOMINADOR</th>
-                <th>RESULTADOS</th>
-                <th>ANALISIS DE CAUSAS</th>
-                <th>ACCIONES PROPUESTAS</th>
 
-              </tr>
+      </table>
+    <div className='table-resposive'>
+      <table className='table table-bordered' padding="2px">
+        <thead>
+          <tr className='tabla1'>
+            <th>ID</th>
+            <th>MES</th>
+            <th>NUMERADOR</th>
+            <th>DENOMINADOR</th>
+            <th>RESULTADOS</th>
+            <th>ANALISIS DE CAUSAS</th>
+            <th>ACCIONES PROPUESTAS</th>
+
+            </tr>
             </thead>
-            <div>
-              <tbody>
+            <tbody>
               {
-                
                 Datos.map((data,key) => { 
                   return( 
-                    <tr key={key}>
+                    <tr className='lleno' key={key}>
                       
                       <th>{data.Id}</th>
                       <th>{data.Mes}</th>
@@ -187,15 +189,13 @@ const Indicador_cond_inseg = () => {
               }
             </tbody>
 
-            </div>
-            
-
           </table>
           <br></br>
           <br></br>
 
           
         </div>
+        
         <table>
           <tr className='graficas'>
             <th>3. GRÁFICAS</th>
@@ -222,6 +222,7 @@ const Indicador_cond_inseg = () => {
           </tr>
         
         </table>
+        <br></br>
 
         <Observaciones/>
 

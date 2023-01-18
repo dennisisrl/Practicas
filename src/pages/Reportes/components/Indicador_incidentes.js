@@ -50,7 +50,7 @@ const Indicador_incidentes = () => {
       plugins: {
         title: {
           display: true,
-          text: 'Porcentaje de Condiciones Inseguras'
+          text: 'Porcentaje de Incidentes'
         }
       }
     }
@@ -79,7 +79,7 @@ const Indicador_incidentes = () => {
         </div>
     
         <br></br>
-        <div className='indicInseg'> <h3>Indicador de Condiciones Inseguras</h3></div>
+        <div className='indicInseg'> <h3> Seguridad Ocupacional- Indicador de Condiciones Inseguras</h3></div>
         <br></br>
        
         <table className=' table-bordered '>   
@@ -99,19 +99,19 @@ const Indicador_incidentes = () => {
             
             <tr>
               <th>Nombre Indicador </th>
-              <td>Indicador de condiciones Inseguras </td>
+              <td>Indicador de Incidentes </td>
               <th>Codigo: </th>
-              <td> DI-TH-S-CI-002</td>
+              <td> DI-TH-S-I-005</td>
             </tr>
             <tr>
               <th>Finalidad</th>
-              <td colspan="3">Medir las condiciones inseguras</td>
+              <td colspan="3">Implementación de las medidas preventivas pertinentes</td>
              
              
             </tr>
             <tr>
               <th>Calculo</th>
-              <td colspan="3">  =(No. de trabajos inseguros / No. condiciones observadas) * 100 </td>
+              <td colspan="3">   = (No. de incidentes peligrosos / No. de incidentes reportados) * 100 </td>
             
              
             </tr>
@@ -166,7 +166,7 @@ const Indicador_incidentes = () => {
               {
                 Datos_incidentes.map((data,key) => { 
                   return( 
-                    <tr key={key}>
+                    <tr  className='lleno' key={key}>
                       
                       <th>{data.Id}</th>
                       <th>{data.Mes}</th>
@@ -217,6 +217,7 @@ const Indicador_incidentes = () => {
           </tr>
         
         </table>
+        <br></br>
 
         <Observaciones/>
 

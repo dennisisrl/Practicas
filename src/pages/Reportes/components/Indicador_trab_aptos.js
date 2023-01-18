@@ -50,7 +50,7 @@ const Indicador_trab_aptos = () => {
       plugins: {
         title: {
           display: true,
-          text: 'Porcentaje de Condiciones Inseguras'
+          text: 'Porcentaje de trabajadores aptos'
         }
       }
     }
@@ -79,7 +79,7 @@ const Indicador_trab_aptos = () => {
         </div>
     
         <br></br>
-        <div className='indicInseg'> <h3>Indicador de Condiciones Inseguras</h3></div>
+        <div className='indicInseg'> <h3>Salud Ocupacional - Indicador de trabajadores aptos </h3></div>
         <br></br>
        
         <table className=' table-bordered '>   
@@ -99,19 +99,19 @@ const Indicador_trab_aptos = () => {
             
             <tr>
               <th>Nombre Indicador </th>
-              <td>Indicador de condiciones Inseguras </td>
+              <td>Indicador trabajadores aptos </td>
               <th>Codigo: </th>
-              <td> DI-TH-S-CI-002</td>
+              <td> DI-TH-SO-TA-004</td>
             </tr>
             <tr>
               <th>Finalidad</th>
-              <td colspan="3">Medir las condiciones inseguras</td>
+              <td colspan="3">Identificar en forma temprana las posibles alteraciones temporales o permanentes de salud del trabajador</td>
              
              
             </tr>
             <tr>
               <th>Calculo</th>
-              <td colspan="3">  =(No. de trabajos inseguros / No. condiciones observadas) * 100 </td>
+              <td colspan="3">   = (No. de trabajadores aptos / No. de trabajadores evaluados) * 100 </td>
             
              
             </tr>
@@ -166,7 +166,7 @@ const Indicador_trab_aptos = () => {
               {
                 Datos_trab_aptos.map((data,key) => { 
                   return( 
-                    <tr key={key}>
+                    <tr className="lleno" key={key}>
                       
                       <th>{data.Id}</th>
                       <th>{data.Mes}</th>
@@ -217,6 +217,7 @@ const Indicador_trab_aptos = () => {
           </tr>
         
         </table>
+        <br></br>
 
         <Observaciones/>
 

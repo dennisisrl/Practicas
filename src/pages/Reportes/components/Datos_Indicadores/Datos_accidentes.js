@@ -2,65 +2,65 @@ export const Datos_accidentes=[
     { 
       Id: '1',
       Mes:'Enero',
-      Numerador:'8',
-      Denominador:'9',
+      Numerador:'31',
+      Denominador:'',
       Resultados:'31',
-      Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-      Acciones:'Realizar inspecciones programadas y no programadas'     
+      Causas:'Mes de Enero sin accidentes',
+      Acciones:'Campañas de prevención de riesgos laborales con frecuencia, Capacitaciones, actualización de señalética, entrega de EPP de acuerdo al riesgo al que esta expuesto el trabajador.'     
     },
     { 
       Id: '2',
       Mes:'Febrero ',
       Numerador:'9',
-      Denominador:'10',
-      Resultados:'28',
-      Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-      Acciones:'Realizar inspecciones programadas y no programadas'     
+      Denominador:'',
+      Resultados:'31',
+      Causas:'Mes de Febrero sin accidentes',
+      Acciones:'Campañas de prevención de riesgos laborales con frecuencia, Capacitaciones, actualización de señalética, entrega de EPP de acuerdo al riesgo al que esta expuesto el trabajador.'     
     },
     { 
       Id: '3',
       Mes:'Marzo',
       Numerador:'9',
-      Denominador:'10',
+      Denominador:'',
       Resultados:'31',
-      Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-      Acciones:'Realizar inspecciones programadas y no programadas'     
+      Causas:'Mes de Marzo sin accidentes',
+      Acciones:'Campañas de prevención de riesgos laborales con frecuencia, Capacitaciones, actualización de señalética, entrega de EPP de acuerdo al riesgo al que esta expuesto el trabajador.'     
     },
     { 
       Id: '4',
       Mes:'Abril',
-      Numerador:'9',
-      Denominador:'10',
+      Numerador:'30',
+      Denominador:'',
       Resultados:'30',
-      Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-      Acciones:'Realizar inspecciones programadas y no programadas'     
-    },
+      Causas:'Mes de Abril sin accidentes',
+      Acciones:'Campañas de prevención de riesgos laborales con frecuencia, Capacitaciones, actualización de señalética, entrega de EPP de acuerdo al riesgo al que esta expuesto el trabajador.'    
+    }, 
     { 
       Id: '5',
       Mes:'Mayo',
-      Numerador:'9',
-      Denominador:'10',
+      Numerador:'31',
+      Denominador:'',
       Resultados:'31',
-      Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-      Acciones:'Realizar inspecciones programadas y no programadas'     
+      Causas:'Mes de Mayo sin accidentes',
+      Acciones:'Campañas de prevención de riesgos laborales con frecuencia, Capacitaciones, actualización de señalética, entrega de EPP de acuerdo al riesgo al que esta expuesto el trabajador.'     
     },
     { 
       Id: '6',
       Mes:'Junio',
-      Numerador:'9',
-      Denominador:'10',
+      Numerador:'30',
+      Denominador:'',
       Resultados:'30',
-      Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-      Acciones:'Realizar inspecciones programadas y no programadas'     
+      Causas:'Mes de Junio sin accidentes',
+      Acciones:'Campañas de prevención de riesgos laborales con frecuencia, Capacitaciones, actualización de señalética, entrega de EPP de acuerdo al riesgo al que esta expuesto el trabajador.'     
     },
     { 
       Id: '7',
       Mes:'Julio',
-      Numerador:'9',
-      Denominador:'10',
-      Resultados:'',
-      Causas:'',
-      Acciones:''     
+      Numerador:'31',
+      Denominador:'',
+      Resultados:'31',
+      Causas:'Mes de Julio sin accidentes',
+      Acciones:'Campañas de prevención de riesgos laborales con frecuencia, Capacitaciones, actualización de señalética, entrega de EPP de acuerdo al riesgo al que esta expuesto el trabajador.'     
     },
     { 
       Id: '8',
@@ -76,7 +76,7 @@ export const Datos_accidentes=[
       Mes:'Septiembre',
       Numerador:'',
       Denominador:'',
-      Resultados:'100',
+      Resultados:'',
       Causas:'',
       Acciones:''     
     },

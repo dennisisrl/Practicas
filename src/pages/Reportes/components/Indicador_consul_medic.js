@@ -36,7 +36,7 @@ const Indicador_consul_medic = () => {
       labels: Datos_consul_medic.map(o => o.Mes),
       datasets: [
         {
-          label: 'Resultados %',
+          label: 'Resultados númericos',
           backgroundColor: '#2C33E7',
           borderColor: '',
           borderWidth: 1,
@@ -49,7 +49,7 @@ const Indicador_consul_medic = () => {
       plugins: {
         title: {
           display: true,
-          text: 'Porcentaje de Condiciones Inseguras'
+          text: 'Númerico de consultas médicas'
         }
       }
     }
@@ -78,7 +78,7 @@ const Indicador_consul_medic = () => {
         </div>
     
         <br></br>
-        <div className='indicInseg'> <h3>Indicador de Condiciones Inseguras</h3></div>
+        <div className='indicInseg'> <h3>Salud Ocupacional - Indicador de Consulas Médicas</h3></div>
         <br></br>
        
         <table className=' table-bordered '>   
@@ -98,25 +98,26 @@ const Indicador_consul_medic = () => {
             
             <tr>
               <th>Nombre Indicador </th>
-              <td>Indicador de condiciones Inseguras </td>
+              <td>Indicador de consultas médicas </td>
               <th>Codigo: </th>
               <td> DI-TH-S-CI-002</td>
             </tr>
             <tr>
               <th>Finalidad</th>
-              <td colspan="3">Medir las condiciones inseguras</td>
+              <td colspan="3">Prevenir, diagnosticar o tratar las enfermedades, y mantener y promover la salud de los empleados</td>
              
              
             </tr>
             <tr>
               <th>Calculo</th>
-              <td colspan="3">  =(No. de trabajos inseguros / No. condiciones observadas) * 100 </td>
+              <td colspan="3"> = No. de consultas médicas diarias											
+ </td>
             
              
             </tr>
             <tr>
               <th>Unidad de medida</th>
-              <td>Porcentaje </td>
+              <td>Númerico </td>
               <td>Frecuencia</td>
               <td>Mensual</td>
             </tr>
@@ -139,7 +140,7 @@ const Indicador_consul_medic = () => {
       
         
         <br/>
-        <br></br>
+        
         <table>
           <tr className='tablem'>
             <th>2. DATOS</th>
@@ -165,7 +166,7 @@ const Indicador_consul_medic = () => {
               {
                 Datos_consul_medic.map((data,key) => { 
                   return( 
-                    <tr key={key}>
+                    <tr key={key} className="lleno">
                       
                       <th>{data.Id}</th>
                       <th>{data.Mes}</th>
@@ -216,6 +217,7 @@ const Indicador_consul_medic = () => {
           </tr>
         
         </table>
+        <br></br>
 
         <Observaciones/>
 

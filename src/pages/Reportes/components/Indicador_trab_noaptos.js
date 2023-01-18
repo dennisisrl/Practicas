@@ -50,7 +50,7 @@ const Indicador_trab_noaptos = () => {
       plugins: {
         title: {
           display: true,
-          text: 'Porcentaje de Condiciones Inseguras'
+          text: 'Porcentaje de trabajadores no aptos'
         }
       }
     }
@@ -79,7 +79,7 @@ const Indicador_trab_noaptos = () => {
         </div>
     
         <br></br>
-        <div className='indicInseg'> <h3>Indicador de Condiciones Inseguras</h3></div>
+        <div className='indicInseg'> <h3>Salud Ocupacional - Indicador de trabajadores no aptos</h3></div>
         <br></br>
        
         <table className=' table-bordered '>   
@@ -88,7 +88,7 @@ const Indicador_trab_noaptos = () => {
             <tr className='tablem'>
               
            
-              <th> Indicador N°6</th>  
+              <th> Indicador N°17</th>  
              <th colspan="3">1 INFORMACIÓN DEL INDICADOR </th> 
             
             </tr>
@@ -99,19 +99,19 @@ const Indicador_trab_noaptos = () => {
             
             <tr>
               <th>Nombre Indicador </th>
-              <td>Indicador de condiciones Inseguras </td>
+              <td>Indicador de trabajadores no aptos </td>
               <th>Codigo: </th>
-              <td> DI-TH-S-CI-002</td>
+              <td> DI-TH-SO-TN-006</td>
             </tr>
             <tr>
               <th>Finalidad</th>
-              <td colspan="3">Medir las condiciones inseguras</td>
+              <td colspan="3">Monitorizar la exposición a los factores de riesgo</td>
              
              
             </tr>
             <tr>
               <th>Calculo</th>
-              <td colspan="3">  =(No. de trabajos inseguros / No. condiciones observadas) * 100 </td>
+              <td colspan="3">  = (No. de trabajadores no aptos / No. de trabajadores evaluados) * 100</td>
             
              
             </tr>
@@ -166,7 +166,7 @@ const Indicador_trab_noaptos = () => {
               {
                 Datos_trab_noaptos.map((data,key) => { 
                   return( 
-                    <tr key={key}>
+                    <tr key={key} className="lleno">
                       
                       <th>{data.Id}</th>
                       <th>{data.Mes}</th>
@@ -217,7 +217,7 @@ const Indicador_trab_noaptos = () => {
           </tr>
         
         </table>
-
+              <br></br>
         <Observaciones/>
 
          

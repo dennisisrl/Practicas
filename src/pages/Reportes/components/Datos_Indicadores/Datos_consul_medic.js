@@ -2,110 +2,110 @@ export const Datos_consul_medic=[
     { 
       Id: '1',
       Mes:'Enero',
-      Numerador:'8',
-      Denominador:'9',
-      Resultados:'100',
-      Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-      Acciones:'Realizar inspecciones programadas y no programadas'     
+      Numerador:'1647',
+      Denominador:'1647',
+      Resultados:'1647',
+      Causas:'Atenciones morbimortalidad general y covid',
+      Acciones:'Medicina curativa y preventiva '     
     },
     { 
       Id: '2',
       Mes:'Febrero ',
-      Numerador:'9',
-      Denominador:'10',
-      Resultados:'59',
-      Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-      Acciones:'Realizar inspecciones programadas y no programadas'     
+      Numerador:'1520',
+      Denominador:'1520',
+      Resultados:'1520',
+      Causas:'Atenciones morbimortalidad general y ocupacional',
+      Acciones:'Medicina curativa y preventiva '   
     },
     { 
       Id: '3',
       Mes:'Marzo',
-      Numerador:'9',
-      Denominador:'10',
-      Resultados:'59',
-      Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-      Acciones:'Realizar inspecciones programadas y no programadas'     
+      Numerador:'2043',
+      Denominador:'2043',
+      Resultados:'2043',
+      Causas:'Atenciones morbimortalidad general y ocupacional',
+      Acciones:'Medicina curativa y preventiva '  
     },
     { 
       Id: '4',
       Mes:'Abril',
-      Numerador:'9',
-      Denominador:'10',
-      Resultados:'59',
-      Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-      Acciones:'Realizar inspecciones programadas y no programadas'     
+      Numerador:'1213',
+      Denominador:'1213',
+      Resultados:'1213',
+      Causas:'Atenciones morbimortalidad general y ocupacional',
+      Acciones:'Medicina curativa y preventiva '     
     },
     { 
       Id: '5',
       Mes:'Mayo',
-      Numerador:'9',
-      Denominador:'10',
-      Resultados:'59',
-      Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-      Acciones:'Realizar inspecciones programadas y no programadas'     
+      Numerador:'1355',
+      Denominador:'1355',
+      Resultados:'1355',
+      Causas:'Atenciones morbimortalidad general y ocupacional',
+      Acciones:'Medicina curativa y preventiva '  
     },
     { 
       Id: '6',
       Mes:'Junio',
-      Numerador:'9',
-      Denominador:'10',
-      Resultados:'59',
-      Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-      Acciones:'Realizar inspecciones programadas y no programadas'     
+      Numerador:'1364',
+      Denominador:'1364',
+      Resultados:'1364',
+      Causas:'Atenciones morbimortalidad general y ocupacional',
+      Acciones:'Medicina curativa y preventiva '       
     },
     { 
       Id: '7',
       Mes:'Julio',
-      Numerador:'9',
-      Denominador:'10',
-      Resultados:'59',
-      Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-      Acciones:'Realizar inspecciones programadas y no programadas'     
+      Numerador:'',
+      Denominador:'',
+      Resultados:'',
+      Causas:'',
+      Acciones:''     
     },
     { 
       Id: '8',
       Mes:'Agosto',
-      Numerador:'9',
-      Denominador:'10',
-      Resultados:'59',
-      Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-      Acciones:'Realizar inspecciones programadas y no programadas'     
+      Numerador:'',
+      Denominador:'',
+      Resultados:'',
+      Causas:'',
+      Acciones:''     
     },
     { 
       Id: '9',
       Mes:'Septiembre',
-      Numerador:'9',
-      Denominador:'10',
-      Resultados:'59',
-      Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-      Acciones:'Realizar inspecciones programadas y no programadas'     
+      Numerador:'',
+      Denominador:'',
+      Resultados:'',
+      Causas:'',
+      Acciones:''        
     },
     { 
       Id: '10',
       Mes:'Octubre',
-      Numerador:'9',
-      Denominador:'10',
-      Resultados:'59',
-      Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-      Acciones:'Realizar inspecciones programadas y no programadas'     
+      Numerador:'',
+      Denominador:'',
+      Resultados:'',
+      Causas:'',
+      Acciones:''         
     },
     { 
       Id: '11',
       Mes:'Noviembre',
-      Numerador:'9',
-      Denominador:'10',
-      Resultados:'19',
-      Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-      Acciones:'Realizar inspecciones programadas y no programadas'     
+      Numerador:'',
+      Denominador:'',
+      Resultados:'',
+      Causas:'',
+      Acciones:''        
     },
     { 
       Id: '12',
       Mes:'Diciembre',
-      Numerador:'9',
-      Denominador:'10',
-      Resultados:'59',
-      Causas:'Inspecciones de instalaciones a los diferentes centros de trabajo',
-      Acciones:'Realizar inspecciones programadas y no programadas'     
+      Numerador:'',
+      Denominador:'',
+      Resultados:'',
+      Causas:'',
+      Acciones:''    
     },
     
     ]
